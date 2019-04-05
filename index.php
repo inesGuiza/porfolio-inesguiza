@@ -9,12 +9,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./wp-content/themes/portfolio-inesguiza/style.css">
 
     <title>Portfolio Ines Guiza</title>
 </head>
-<body>
+<body class="mon-bg">
 <!-- PAGE 1 // ACCEUIL --> 
-<header class="bg-dark"> 
+<header> 
 
     <!-- Navigation -->
     <nav class="navbar navbar-dark">
@@ -27,7 +28,7 @@
 
 </header>
 
-<main class="bg-dark">
+<main >
     <!-- Section Présentation -->
     <div class="section">
       <div class="full-page-1">
@@ -43,7 +44,7 @@
         <div class="dynamique">
           <div>
             <p>Portfolio</p>
-            <p class="quote">" Qui ne progresse pas chaque jour, regresse chaque jour." <span>Confucius</span>
+            <p class="quote">"Qui ne progresse pas chaque jour, regresse chaque jour." <span>Confucius</span>
           </p>
           </div>
 
