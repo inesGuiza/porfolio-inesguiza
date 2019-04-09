@@ -1,7 +1,109 @@
-
+header
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    padding: 30px 30px 0
+    display: flex
+    z-index: 1000
+    float: left
 .navbar 
+    width: 100%
     a.name
         text-decoration: none
         color: white
+        font-size: 1.3rem
+        font-family: $font-dots
+        letter-spacing: 0.1em
+        position: relative
+        z-index: 1000
     .name:hover
         color: $jaune
+.wrap
+    display: flex
+    position: relative
+.icons
+    display: flex
+    margin-right: 2.4rem
+    a 
+        display: block
+        margin-right: 1.7rem
+        font-size: 1.4rem
+        letter-spacing: 0.1em
+        color: #fff
+    a:hover 
+        color: $jaune
+.menuIcon
+    position: relative
+    width: auto
+    height: auto
+    cursor: pointer
+
+// menu déroulant
+#barres-nav
+    position: fixed
+    margin: 0
+    margin-top: -32px
+    top: 50%
+    transform: translate3d(0, -50%, 0)
+    width: 40px
+    left: 40px
+    overflow: hidden
+    z-index: 100
+    opacity: 1
+    ul 
+        margin: 0
+        padding: 0
+        li 
+            height: 3px
+            margin: 0 0 40px
+            display: block
+            width: 14px
+            position: relative 
+            line-height: 1.5
+            a 
+                background: #fff
+                z-index: 1
+                width: 24px
+                height: 100%
+                display:  block
+                position: relative
+                cursor:  pointer
+                text-decoration: none
+                transition: .3s
+                color: #072142
+                span 
+                    display: none
+                    border-radius: 50%
+                    position: absolute
+                    z-index: 1
+                    height: 4px
+                    width: 6px
+                    border: 0
+                    background: #333
+                    left: 50%
+                    top: 50% 
+                    margin: -2px 0 0 -2px
+
+
+@media screen and (max-width: break-extra-large)
+    #barres-nav
+        width: auto
+        top: auto
+        left: 50%
+        bottom: 32px
+        transform: translate3d(-50%, 0, 0)
+        ul 
+            display: flex
+            align-items: flex-end
+            li 
+                height: auto
+                margin: 0 28px
+                a 
+                    width: 3px
+                    height: 24px
+
+ul 
+    list-style: none
+li 
+    list-style-type: none

@@ -1,2 +1,197 @@
 .mon-bg
     background-color: $mauve
+
+.section
+    height: 100vh
+    display: table
+    width: 100%
+
+.fullpage__slide
+    width: 100%
+    height: 100vh
+    display: flex
+    align-items: center
+    position: relative
+
+.title
+    color: #fff
+    position: absolute
+    overflow: hidden
+    top: 50%
+    transform: translate3d(0, -50%, 0)
+    z-index: 200
+    margin-left: 11%
+
+.title__demi
+    color: #fff
+    position: absolute
+    overflow: hidden
+    top: 50%
+    transform: translate3d(0, -50%, 0)
+    z-index: 200
+    margin-left: 11%
+.title__demi2
+    color: #fff
+    position: absolute
+    overflow: hidden
+    top: 50%
+    transform: translate3d(0, -50%, 0)
+    z-index: 200
+    margin-left: 51%
+
+// barre jaune
+.border-yellow
+    display: inline-block
+    margin-bottom: 2rem
+
+.barre1
+    display: block
+    height: 4px
+    border-top-color: $jaune
+    border-top-style: dashed
+    width: 88px
+    margin-bottom: 1.4rem
+@media screen and (max-width: $break-large)
+    .barre1
+        width: 70px   
+
+.barre2
+    display: block
+    height: 4px
+    border-top-color: $jaune
+    border-top-style: dashed
+    width: 88px
+    margin-left: 54px
+@media screen and (max-width: $break-large)
+    .barre2
+        width: 70px
+        margin-left: 43px
+
+//  Ines Guiza
+.title__text0
+    font-size: 7rem
+    text-transform: uppercase
+    font-family: $font-poiret
+    line-height: 1
+    letter-spacing: 0.1em
+    margin-bottom: 2rem
+    font-weight: normal
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5)
+@media screen and (max-width: $break-large)
+    .title__text0
+        font-size: 3.6rem
+
+.title__text
+    font-size: 7rem
+    font-family: $font-poiret
+    line-height: 1
+    letter-spacing: 0.1em
+    margin-bottom: 2rem
+    font-weight: normal
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5)
+@media screen and (max-width: $break-large)
+    .title__text
+        font-size: 3.6rem
+
+.title__lead
+    color: #fff
+    font-size: 1.5rem
+    font-family: $font-rale
+    line-height: 1.5
+    letter-spacing: 0.1em
+@media screen and (max-width: $break-large)
+    .title__lead
+        font-size: 1rem
+        line-height: 1.4
+
+.title__lead2
+    color: #ffffffbd
+    font-size: 1.1rem
+    font-family: $font-rale
+    line-height: 1.5
+    letter-spacing: 0.1em
+@media screen and (max-width: $break-large)
+    .title__lead2
+        font-size: 1rem
+        line-height: 1.4
+p 
+    word-wrap: break-word
+    white-space: normal
+    // margin: 0
+    // padding: 0  
+
+.dynamique
+    position: absolute
+    top: 0
+    bottom: 0
+    margin: auto
+    left: 49.5%
+    display: flex
+    align-items: center
+    justify-content: center
+@media screen and (max-width: $break-large)
+    .dynamique
+        width: 100vw
+        height: 100vw
+        left: 53%
+
+.portfolio_dynamique
+    position: absolute
+    left: -15.5%
+    top: 20%
+
+.portfolio_text
+    font-size: 3.7rem
+    font-family: $font-dots
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    text-shadow: 0 10px 15px rgba(2, 11, 22, 0.2)
+    color: $jaune
+
+@media screen and (max-width: $break-large)
+    .portfolio_dynamique
+        left: -10%
+        top: 30%
+    .portfolio_text
+        font-size: 3.5rem
+    .portfolio_dynamique
+        top: 40%
+      
+.quote  
+    font-size: 1rem
+    font-family: $font-rale
+    letter-spacing: 0.1em
+    color: #fff 
+@media screen and (max-width: $break-large)
+    .quote
+        font-size: 0.7rem
+.quote-author
+    font-size: 0.7rem
+    letter-spacing: 0.2em
+    text-transform: uppercase
+    color: #ffffffbd
+    padding-left: 14rem
+
+.image0
+    display: block
+    position: absolute
+    width: 50%
+    height: 75%
+    top: 10%
+    left: 42%
+    bottom: 0
+    margin: 0 8% 0 auto 
+    box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6)
+
+.image_ines
+    background-image: url("../img/DSCF4974.jpg") no-repeat center
+    background-size: cover
+
+.scrollDown
+    position: fixed
+    font-size: 1.4rem
+    bottom: 80px
+    left: 40px
+    line-height: 1
+    color: #fff 
+
