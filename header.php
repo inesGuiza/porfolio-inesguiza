@@ -8,7 +8,7 @@
     <meta name="ines" content="">
 
   <?php 
-  
+
   // Ajout des css de manière dynamique grâce à functions.php
   wp_head();
 
@@ -34,9 +34,17 @@
           
 
         </div>
-        <button class="navbar-toggler menuIcon" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler menuIcon" type="button" data-toggle="collapse" data-target="#menu-ines" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
+
         </button>
+        <?php
+        wp_nav_menu([
+          'menu_class' => '',
+          'theme-location' => 'main-menu',
+          'container' => ''
+          ]);
+          ?>
       </div>
   </nav>
 

@@ -10198,4 +10198,68 @@ p {
   background-size: cover;
 }
 
+.get {
+  list-style: none;
+}
+.get li {
+  margin-bottom: 1.2rem;
+  list-style-type: none;
+  line-height: 1.5;
+}
+.get li a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.get li .last {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .get li a {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+}
+header .global-nav {
+  background-image: linear-gradient(to right, #6f1c36 50%, #f0aa09);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  z-index: -100;
+}
+
+.global-nav__list {
+  text-align: center;
+}
+.global-nav__list li {
+  margin-top: 7.2rem;
+  position: relative;
+  padding: 0 153px;
+  overflow: hidden;
+}
+.global-nav__list a {
+  display: inline-block;
+  color: #fff;
+  font-size: 12rem;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.2);
+}
+
+ul {
+  list-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */

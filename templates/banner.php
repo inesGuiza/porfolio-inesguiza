@@ -4,12 +4,12 @@
       <div class="full-page-1">
         <!-- left side -->
         <div class="title title-top">
-          <h1 class="title__text0 js-letter">Inès <br> Guiza</h1>
+          <h1 class="title__text0 js-letter"> <?php echo get_bloginfo('name'); ?> <br> <?php echo get_bloginfo('lastname'); ?> Guiza</h1>
           <div class="border-yellow js-letter">
             <span class="barre1"></span>
             <span class="barre2 js-letter"></span>
           </div>
-          <p class="title__lead js-letter">Junior Architect / <br> freelance Full Stack <br> Web Developer.</p>
+          <p class="title__lead js-letter"> <?php echo get_bloginfo('description'); ?> <br> freelance Full Stack <br> Web Developer.</p>
           <p class="title__lead2 js-letter">Based in E4°20'55".50N°51'01".</p>
 <!-- <br> (Brussels in case) -->
         </div>
