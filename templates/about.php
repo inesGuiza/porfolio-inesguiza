@@ -1,4 +1,7 @@
+<?php
 
+$text_intro = get_theme_mod('portfolio-about-text', __('Texte accroche'));
+?>
 <!-- SECTION ABOUT ME  -->
 <div id="about" class="section">
   <div class="fullpage__slide">
@@ -9,7 +12,8 @@
         <span class="barre1"></span>
         <span class="barre2 js-letter"></span>
       </div>
-      <p class="title__lead js-letter">I love and I believe in Communication, Design <br> and Travel.  </p>
+      <p class="title__lead js-letter"><?= $text_intro; ?></p>
+      <!-- I love and I believe in Communication, Design <br> and Travel.   -->
       <div class="btn-wrap js-letter">
         <a class="btn" href="./about.html"> Show me more</a>
       </div>
