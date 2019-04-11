@@ -21,13 +21,15 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway+Dots|Raleway:400,600" rel="stylesheet">
 
     <title>Portfolio Ines Guiza</title>
+
+    
 </head>
 <body class="mon-bg">
 <!-- PAGE 1 // ACCEUIL --> 
-<header> 
+<header id="myHeader"> 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-dark">
+    <nav  class="navbar navbar-dark">
       <a class="name" href="./">Inès Guiza</a>
       <!-- menu -->
       <div class="wrap align-items-center">
@@ -48,7 +50,7 @@
 
 <main >
     <!-- Section Présentation -->
-    <div id="top" class="section">
+    <div id="top" class="section ">
       <div class="full-page-1">
         <!-- left side -->
         <div class="title title-top">
@@ -118,7 +120,7 @@
         <span class="barre1"></span>
         <span class="barre2 js-letter"></span>
       </div>
-      <p class="title__lead js-letter">architecture</p>
+      <p class="title__lead js-letter">Architecture</p>
       <div class="btn-wrap js-letter">
         <a class="btn" href="./portfolio-architecture.html"> Show me more</a>
       </div>
@@ -139,7 +141,7 @@
         <span class="barre2 js-letter"></span>
 
       </div>
-      <p class="title__lead js-letter">webdesign</p>
+      <p class="title__lead js-letter">Web development</p>
       <div class="btn-wrap js-letter">
         <a class="btn" href="./portfolio-webdesign.html"> Show me more</a>
       </div>
@@ -231,6 +233,8 @@
 </footer>
 
 <!-- Optional JavaScript -->
+  <script src="./wp-content/themes/portfolio-inesguiza/js/main.js"></script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

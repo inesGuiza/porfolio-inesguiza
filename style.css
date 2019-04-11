@@ -9660,10 +9660,12 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 30px 30px 0;
+  padding: 10px 30px 10px;
   display: flex;
   z-index: 1000;
   float: left;
+  background-color: #6f1c36;
+  box-shadow: 0 0px 50px 0px rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
@@ -9810,7 +9812,7 @@ li {
   color: #fff;
   position: absolute;
   overflow: hidden;
-  top: 50%;
+  top: 55%;
   transform: translate3d(0, -50%, 0);
   z-index: 200;
   margin-left: 11%;
@@ -9878,7 +9880,8 @@ li {
   letter-spacing: 0.1em;
   margin-bottom: 2rem;
   font-weight: normal;
-  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+  text-shadow: 0px 0 #f0aa09, 0 0px #f0aa09, 5px 0 #f0aa09, 0 0px #f0aa09;
+  z-index: 700;
 }
 
 @media screen and (max-width: 992px) {
@@ -9894,6 +9897,7 @@ li {
   margin-bottom: 2rem;
   font-weight: normal;
   text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+  z-index: 700;
 }
 
 @media screen and (max-width: 992px) {
@@ -9936,13 +9940,14 @@ p {
 
 .dynamique {
   position: absolute;
-  top: 0;
+  top: 15%;
   bottom: 0;
   margin: auto;
-  left: 49.5%;
+  left: 48.5%;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 700;
 }
 
 @media screen and (max-width: 992px) {
@@ -9955,16 +9960,17 @@ p {
 .portfolio_dynamique {
   position: absolute;
   left: -15.5%;
-  top: 20%;
+  top: 5%;
 }
 
 .portfolio_text {
-  font-size: 3.7rem;
+  font-size: 5.7rem;
   font-family: "Raleway Dots", cursive;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-shadow: 0 10px 15px rgba(2, 11, 22, 0.2);
   color: #f0aa09;
+  padding-right: 5rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -9986,6 +9992,7 @@ p {
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.1em;
   color: #fff;
+  margin-left: 2rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -10006,25 +10013,45 @@ p {
   position: absolute;
   width: 50%;
   height: 75%;
-  top: 10%;
+  top: 15%;
   left: 42%;
   bottom: 0;
   margin: 0 8% 0 auto;
   box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
 }
 
+@media screen and (max-width: 992px) {
+  .image0 {
+    margin-right: 40px;
+  }
+}
 .image_ines {
-  background-image: url("../img/DSCF4974.jpg") no-repeat center;
+  background-image: url("./img/fond1.jpg");
   background-size: cover;
+  z-index: 0;
 }
 
 .scrollDown {
-  position: fixed;
-  font-size: 1.4rem;
-  bottom: 80px;
+  position: absolute;
+  font-size: 0.7rem;
+  font-family: "Raleway", sans-serif;
+  bottom: 30px;
   left: 40px;
   line-height: 1;
+  letter-spacing: 0.3em;
   color: #fff;
+  z-index: 100;
+}
+
+.scrollDown::after {
+  content: "";
+  width: 2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -80px;
 }
 
 .title__text__demi {
@@ -10035,6 +10062,7 @@ p {
   margin-bottom: 2rem;
   font-weight: normal;
   text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+  z-index: 700;
 }
 
 @media screen and (max-width: 992px) {
@@ -10096,6 +10124,11 @@ p {
     margin-right: 40px;
   }
 }
+.image_myworkarchitecture {
+  background-image: url("./img/archi.jpg");
+  background-size: cover;
+}
+
 .image2 {
   display: block;
   position: relative;
@@ -10110,6 +10143,11 @@ p {
     margin-right: 40px;
   }
 }
+.image_myworkwebdesign {
+  background-image: url("./img/long web.jpg");
+  background-size: cover;
+}
+
 .image {
   display: block;
   position: relative;
@@ -10124,8 +10162,39 @@ p {
     margin-right: 40px;
   }
 }
-.image_myworkarchitecture {
-  background-image: url("../img/DSCF4974.jpg") no-repeat center;
+.image_about {
+  background-image: url("./img/ines.jpg");
+  background-size: cover;
+}
+
+.image__over {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image__cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: #f0aa09;
+  transform: translate3d(100%, 0, 0);
+}
+
+.image__cover:last-child {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: #6f1c36;
+}
+
+.image_contact {
+  background-image: url("./img/meeting2.jpg");
   background-size: cover;
 }
 
