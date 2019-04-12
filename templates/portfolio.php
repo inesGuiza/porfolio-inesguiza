@@ -1,3 +1,10 @@
+<?php
+
+$text_intro_archi = get_theme_mod('portfolio-archi-text', __('Texte accroche'));
+$text_intro_web = get_theme_mod('portfolio-web-text', __('Texte accroche'));
+
+?>
+
 <!-- SECTION PORTFOLIO -->
 <div id="portfolio" class="section">
   <div class="fullpage__slide">
@@ -9,7 +16,7 @@
         <span class="barre1"></span>
         <span class="barre2 js-letter"></span>
       </div>
-      <p class="title__lead js-letter">Architecture</p>
+      <p class="title__lead js-letter"><?= $text_intro_archi; ?></p>
       <div class="btn-wrap js-letter">
         <a class="btn" href="./portfolio-architecture.html"> Show me more</a>
       </div>
@@ -30,7 +37,7 @@
         <span class="barre2 js-letter"></span>
 
       </div>
-      <p class="title__lead js-letter">Web development</p>
+      <p class="title__lead js-letter"><?= $text_intro_web; ?></p>
       <div class="btn-wrap js-letter">
         <a class="btn" href="./portfolio-webdesign.html"> Show me more</a>
       </div>

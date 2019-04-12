@@ -29,7 +29,7 @@ class EnqueueScript
 
     // Ajout des scripts js
 
-    wp_enqueue_script('porfolio-ines',get_template_directory_uri() . '/js/main.js');
+    wp_enqueue_script('porfolio-ines',get_template_directory_uri() . '/js/main.js',[],null,true);
        
 
     // <!-- jQuery first, then Popper.js, then Bootstrap JS -->

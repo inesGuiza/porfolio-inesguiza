@@ -1,10 +1,15 @@
+<?php
+
+$lastname = get_theme_mod('portfolio-acceuil-text', __('Texte accroche'));
+
+?>
 <main >
     <!-- Section Présentation -->
-    <div id="top" class="section ">
+    <div id="top" class="section1">
       <div class="full-page-1">
         <!-- left side -->
         <div class="title title-top">
-          <h1 class="title__text0 js-letter"> <?php echo get_bloginfo('name'); ?> <br> <?php echo get_bloginfo('lastname'); ?> Guiza</h1>
+          <h1 class="title__text0 js-letter"> <?php echo get_bloginfo('name'); ?> <br><?= $lastname; ?></h1>
           <div class="border-yellow js-letter">
             <span class="barre1"></span>
             <span class="barre2 js-letter"></span>
