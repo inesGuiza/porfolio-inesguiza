@@ -20,7 +20,7 @@
 <body >
 
 <!-- PAGE 1 // ACCEUIL --> 
-<header id="myHeader"> 
+<header id="myHeader" class="mon-bg"> 
 
     <!-- Navigation -->
     <nav  class="navbar navbar-dark">

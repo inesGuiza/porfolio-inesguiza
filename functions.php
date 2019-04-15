@@ -12,5 +12,7 @@ require_once(INCLUDE_DIR . '/theme-setup.php');
 
 require_once(INCLUDE_DIR . '/customizer.php');
 
+require_once('plugins/plugins.php');
+
   
 ?>
