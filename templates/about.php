@@ -15,11 +15,11 @@ $text_intro = get_theme_mod('portfolio-about-text', __('Texte accroche'));
       <p class="title__lead js-letter"><?= $text_intro; ?></p>
       <!-- I love and I believe in Communication, Design <br> and Travel.   -->
       <div class="btn-wrap js-letter">
-        <a class="btn" href="./about.html"> Show me more</a>
+        <a class="btn" href="<?php echo get_page_link('13'); ?>"> Show me more</a>
       </div>
     </div>
     <!-- image link -->
-    <a class="image image_about" href="/about.html">
+    <a class="image image_about" href="<?php echo get_page_link('13'); ?>">
       <div class="image__over">
         <div class="image__cover"></div>
         <div class="image__cover"></div>

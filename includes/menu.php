@@ -34,3 +34,5 @@ class MgMenu
 add_action('after_setup_theme', [MgMenu::class,'register_main_menu']);
 
 add_filter('nav_menu_link_attributes', [MgMenu::class,'ajout_menu_a_class'],10, 3);
+
+//  hook pour li = nav_menu_css_class, paramètres pour li : $classes, $item, $args, $depth

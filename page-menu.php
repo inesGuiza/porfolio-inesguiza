@@ -7,7 +7,10 @@
             <a href="./">WORKS</a>
         </li>
         <li>
-            <a href="./">ABOUT MENU</a>
+            <a href="./">BLOG</a>
+        </li>
+        <li>
+            <a href="./">ABOUT</a>
         </li>
         <li>
             <a class="js-contact" href="./">CONTACT</a>

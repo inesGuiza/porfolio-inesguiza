@@ -36,7 +36,8 @@
         </div>
         <button class="navbar-toggler menuIcon" type="button" data-toggle="collapse" data-target="#menu-ines" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
-            <a href=""></a></span>
+            <a href="<?php echo get_page_link('36'); ?>"></a>
+          </span>
 
         </button>
         <?php

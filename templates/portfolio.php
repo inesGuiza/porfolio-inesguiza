@@ -18,11 +18,11 @@ $text_intro_web = get_theme_mod('portfolio-web-text', __('Texte accroche'));
       </div>
       <p class="title__lead js-letter"><?= $text_intro_archi; ?></p>
       <div class="btn-wrap js-letter">
-        <a class="btn" href="./portfolio-architecture.html"> Show me more</a>
+        <a class="btn" href="<?php echo get_page_link('11'); ?>"> Show me more</a>
       </div>
     </div>
       <!-- image link -->
-    <a class="image22 image_myworkarchitecture" href="/portfolio-architecture.html">
+    <a class="image22 image_myworkarchitecture" href="<?php echo get_page_link('11'); ?>">
       <div class="image__over2">
         <div class="image__cover2"></div>
         <div class="image__cover2"></div>
@@ -39,11 +39,11 @@ $text_intro_web = get_theme_mod('portfolio-web-text', __('Texte accroche'));
       </div>
       <p class="title__lead js-letter"><?= $text_intro_web; ?></p>
       <div class="btn-wrap js-letter">
-        <a class="btn" href="./portfolio-webdesign.html"> Show me more</a>
+        <a class="btn" href="<?php echo get_page_link('45'); ?>"> Show me more</a>
       </div>
     </div>
       <!-- image link -->
-    <a class="image2 image_myworkwebdesign" href="/portfolio-webdesign.html">
+    <a class="image2 image_myworkwebdesign" href="<?php echo get_page_link('45'); ?>">
       <div class="image__over2">
         <div class="image__cover2"></div>
         <div class="image__cover2"></div>
