@@ -17,7 +17,8 @@
 
 </head>
 
-<body >
+<!-- hijacking: on/off - animation:none / scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+<body  >
 
 <!-- PAGE 1 // ACCEUIL --> 
 <header id="myHeader"> 

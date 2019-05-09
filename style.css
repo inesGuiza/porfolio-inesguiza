@@ -10245,6 +10245,19 @@ p {
   transition: 0.3s;
   text-decoration: none;
 }
+.get li a:hover {
+  color: #f0aa09;
+}
+.get li p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  display: inline;
+  margin-right: 1rem;
+}
 .get li .last {
   margin-right: 1rem;
 }

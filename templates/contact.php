@@ -18,6 +18,12 @@
           <a class="last" href="https://www.linkedin.com/in/in%C3%A8s-guiza-b510b8109/" target="_blank"><i class="fab fa-linkedin"></i></a>
          
         </li>
+        <li class="js-letter ">
+          <p>to have a look at my C.V.</p>
+          <a href="<?php echo get_template_directory_uri(); ?>/img/cv_2019_ines.pdf" download>
+          <i class="fas fa-file-download"></i>
+        </a>
+        </li>
       </ul>
     </div>
       <!-- image link -->
