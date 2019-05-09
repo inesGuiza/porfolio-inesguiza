@@ -2,30 +2,49 @@ header .global-nav
     background-image: linear-gradient(to right, $mauve 50%, $jaune)
     width: 100%
     height: 100vh
-    position: fixed
     top: 0
     left: 0
     justify-content: center
     align-items: center
-    transition: 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86)
     z-index: -100
+    position: fixed
+    scroll-behavior: smooth
+    
+// .js-open
+//     background-image: linear-gradient(to right, $mauve 50%, $jaune)
+//     width: 100%
+//     height: 100vh
+//     top: 0
+//     left: 0
+//     justify-content: center
+//     align-items: center
+//     z-index: -100
+//     position: fixed
+//     display: block
+        // transform: translate3d(0,0,0)
+        // transition: 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        
+
+#menu-ines
+     
 
 .global-nav__list
     text-align: center
     li 
-        margin-top: 7.2rem
+        margin-top: 2.2rem
         position: relative
         padding: 0 153px
         overflow: hidden
     a 
         display: inline-block
         color: #fff 
-        font-size: 12rem
+        font-size: 6rem
         line-height: 1
         letter-spacing: 0.1em
         font-family: $font-rale
         font-weight: normal
         text-shadow: 0 10px 30px rgba(2, 11, 22,0.2)
+        text-transform: uppercase
 
 
 ul 

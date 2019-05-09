@@ -10,7 +10,17 @@ require_once(INCLUDE_DIR . '/menu.php');
 
 require_once(INCLUDE_DIR . '/theme-setup.php');
 
-require_once(INCLUDE_DIR . '/customizer.php');
+require_once(INCLUDE_DIR . '/customizer-home.php');
+
+require_once(INCLUDE_DIR . '/customizer-about.php');
+
+require_once(INCLUDE_DIR . '/customizer-blog.php');
+
+require_once(INCLUDE_DIR . '/customizer-archi.php');
+
+require_once(INCLUDE_DIR . '/customizer-web.php');
+
+
 
 require_once('plugins/plugins.php');
 

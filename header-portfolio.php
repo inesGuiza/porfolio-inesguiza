@@ -24,7 +24,7 @@
 
     <!-- Navigation -->
     <nav  class="navbar navbar-dark">
-      <a class="name" href="./">Inès Guiza</a>
+      <a class="name" href="<?php echo get_site_url(); ?>">Inès Guiza</a>
       <!-- menu -->
       <div class="wrap align-items-center">
         <div class="icons">
@@ -34,17 +34,18 @@
           
 
         </div>
-        <button class="navbar-toggler menuIcon" type="button" data-toggle="collapse" data-target="#menu-ines" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler menuIcon" type="button" data-toggle="collapse"  aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
-            <a href="<?php echo get_page_link('36'); ?>"></a>
           </span>
 
         </button>
         <?php
         wp_nav_menu([
-          'menu_class' => '',
+          'menu_class' => 'global-nav__list',
           'theme-location' => 'main-menu',
-          'container' => ''
+          'container' => 'nav',
+          'container_class' => 'global-nav d-none',
+          'container_id' => 'menu-ines'
           ]);
           ?>
       </div>

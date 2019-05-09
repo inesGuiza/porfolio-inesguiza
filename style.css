@@ -9714,6 +9714,10 @@ header {
   cursor: pointer;
 }
 
+#barettes {
+  color: #f0aa09;
+}
+
 #barres-nav {
   position: fixed;
   margin: 0;
@@ -9730,6 +9734,7 @@ header {
 #barres-nav ul {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 #barres-nav ul li {
   height: 3px;
@@ -9738,6 +9743,7 @@ header {
   width: 14px;
   position: relative;
   line-height: 1.5;
+  scroll-behavior: smooth;
 }
 #barres-nav ul li .smooth {
   scroll-behavior: smooth;
@@ -10253,20 +10259,20 @@ header .global-nav {
   background-image: linear-gradient(to right, #6f1c36 50%, #f0aa09);
   width: 100%;
   height: 100vh;
-  position: fixed;
   top: 0;
   left: 0;
   justify-content: center;
   align-items: center;
-  transition: 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   z-index: -100;
+  position: fixed;
+  scroll-behavior: smooth;
 }
 
 .global-nav__list {
   text-align: center;
 }
 .global-nav__list li {
-  margin-top: 7.2rem;
+  margin-top: 2.2rem;
   position: relative;
   padding: 0 153px;
   overflow: hidden;
@@ -10274,12 +10280,13 @@ header .global-nav {
 .global-nav__list a {
   display: inline-block;
   color: #fff;
-  font-size: 12rem;
+  font-size: 6rem;
   line-height: 1;
   letter-spacing: 0.1em;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   text-shadow: 0 10px 30px rgba(2, 11, 22, 0.2);
+  text-transform: uppercase;
 }
 
 ul {

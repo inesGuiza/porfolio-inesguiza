@@ -41,7 +41,7 @@ $lastname = get_theme_mod('portfolio-acceuil-text', __('Texte accroche'));
 <div id="barres-nav" class="left">
   <ul>
     <li class="smooth">
-      <a href="#top" class="active">
+      <a href="<?php echo get_site_url(); ?>" class="active">
       <span></span>
       </a>
     </li>
