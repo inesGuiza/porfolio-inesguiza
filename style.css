@@ -9864,7 +9864,7 @@ li {
   top: 50%;
   transform: translate3d(0, -50%, 0);
   z-index: 200;
-  margin-left: 51%;
+  margin-left: 52%;
 }
 
 .border-yellow {
@@ -10058,7 +10058,7 @@ p {
 .image_ines {
   background-image: url("./img/fond1.jpg");
   background-size: cover;
-  z-index: 0;
+  z-index: 2;
 }
 
 .scrollDown {
@@ -10082,6 +10082,18 @@ p {
   right: 0;
   margin: auto;
   bottom: -80px;
+}
+
+.border-jaune-banner {
+  color: #f0aa09;
+  width: 50%;
+  height: 75%;
+  position: absolute;
+  top: 47.5%;
+  transform: translate(-6%, -37%);
+  z-index: 1;
+  border: 2px dashed #f0aa09 !important;
+  left: 47.5%;
 }
 
 .title__text__demi {
@@ -10142,11 +10154,12 @@ p {
 .image22 {
   display: block;
   position: relative;
-  right: -8%;
+  right: -7%;
   width: 25%;
   height: 75%;
   margin: 0 8% 0 auto;
   box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
+  z-index: 2;
 }
 
 @media screen and (max-width: 992px) {
@@ -10166,6 +10179,7 @@ p {
   height: 75%;
   margin: 0 8% 0 auto;
   box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
+  z-index: 2;
 }
 
 @media screen and (max-width: 992px) {
@@ -10178,6 +10192,30 @@ p {
   background-size: cover;
 }
 
+.border-jaune-portfolio {
+  color: #f0aa09;
+  width: 25%;
+  height: 75%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-6%, -37%);
+  z-index: 1;
+  border: 2px dashed #f0aa09 !important;
+  left: 27.5%;
+}
+
+.border-jaune-portfolio2 {
+  color: #f0aa09;
+  width: 25%;
+  height: 75%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-6%, -37%);
+  z-index: 1;
+  border: 2px dashed #f0aa09 !important;
+  left: 70.5%;
+}
+
 .image {
   display: block;
   position: relative;
@@ -10185,6 +10223,7 @@ p {
   height: 75%;
   margin: 0 8% 0 auto;
   box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
+  z-index: 2;
 }
 
 @media screen and (max-width: 992px) {
@@ -10221,6 +10260,18 @@ p {
   top: 0;
   right: 0;
   background: #6f1c36;
+}
+
+.border-jaune {
+  color: #f0aa09;
+  width: 50%;
+  height: 75%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-6%, -37%);
+  z-index: 1;
+  border: 2px dashed #f0aa09 !important;
+  left: 47.5%;
 }
 
 .image_contact {

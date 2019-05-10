@@ -46,11 +46,12 @@
 .image22
     display: block
     position: relative
-    right: -8%
+    right: -7%
     width: 25%
     height: 75%
     margin: 0 8% 0 auto 
     box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6)
+    z-index: 2
 @media screen and (max-width: $break-large)
     .image22
         margin-right: 40px
@@ -67,6 +68,7 @@
     height: 75%
     margin: 0 8% 0 auto 
     box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6)
+    z-index: 2
 @media screen and (max-width: $break-large)
     .image2
         margin-right: 40px
@@ -76,5 +78,24 @@
     background-image: url("./img/long web.jpg")
     background-size: cover 
 
+.border-jaune-portfolio
+    color: $jaune
+    width: 25%
+    height: 75%
+    position: absolute
+    top: 45%
+    transform: translate(-6%,-37%)
+    z-index: 1
+    border: 2px dashed $jaune !important
+    left: 27.5%
 
-
+.border-jaune-portfolio2
+    color: $jaune
+    width: 25%
+    height: 75%
+    position: absolute
+    top: 45%
+    transform: translate(-6%,-37%)
+    z-index: 1
+    border: 2px dashed $jaune !important
+    left: 70.5%

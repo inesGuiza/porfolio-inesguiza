@@ -28,6 +28,8 @@ $text_intro_web = get_theme_mod('portfolio-web-text', __('Texte accroche'));
         <div class="image__cover2"></div>
       </div>
     </a>
+    <div class="border-jaune-portfolio"></div>
+
     <!-- webdesign -->
       <!-- texte & buton link-->
     <div class="title__demi2">
@@ -49,6 +51,8 @@ $text_intro_web = get_theme_mod('portfolio-web-text', __('Texte accroche'));
         <div class="image__cover2"></div>
       </div>
     </a>
+    <div class="border-jaune-portfolio2"></div>
+
     <!-- number page 01 -->
     <div class="page-num">
       <p>01</p>

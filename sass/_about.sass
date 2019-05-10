@@ -5,6 +5,7 @@
     height: 75%
     margin: 0 8% 0 auto 
     box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6)
+    z-index: 2
 @media screen and (max-width: $break-large)
     .image
         margin-right: 40px
@@ -36,3 +37,14 @@
     top: 0
     right: 0
     background: $mauve
+
+.border-jaune
+    color: $jaune
+    width: 50%
+    height: 75%
+    position: absolute
+    top: 45%
+    transform: translate(-6%,-37%)
+    z-index: 1
+    border: 2px dashed $jaune !important
+    left: 47.5%

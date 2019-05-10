@@ -25,6 +25,7 @@ $text_intro = get_theme_mod('portfolio-about-text', __('Texte accroche'));
         <div class="image__cover"></div>
       </div>
     </a>
+    <div class="border-jaune"></div>
     <!-- number page 02 -->
     <div class="page-num">
       <p>02</p>

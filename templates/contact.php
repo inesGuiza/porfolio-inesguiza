@@ -27,12 +27,13 @@
       </ul>
     </div>
       <!-- image link -->
-      <a class="image image_contact" href="/about.html">
+    <a class="image image_contact" href="/about.html">
       <div class="image__over">
         <div class="image__cover"></div>
         <div class="image__cover"></div>
       </div>
     </a>
+    <div class="border-jaune"></div>
     <!-- number page 03 -->
     <div class="page-num">
       <p>03</p>

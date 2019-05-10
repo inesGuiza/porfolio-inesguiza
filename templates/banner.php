@@ -33,7 +33,8 @@ $lastname = get_theme_mod('portfolio-acceuil-text', __('Texte accroche'));
             <div class="image__cover"></div>
           </div>
         </a>
-        
+        <div class="border-jaune-banner"></div>
+
       </div>
     </div>
 
