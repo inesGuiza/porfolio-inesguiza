@@ -49,7 +49,65 @@ function myFunction() {
 let maxWidth = window.getComputedStyle(document.body).width;
 
 if (maxWidth >= 768) {
-}
+};
+
+// SCROLL SMOOTH
+// var offsetActuel = 0;
+
+// addEventListener("scroll", window);
+// var descendre = offsetActuel<document.offsetTop;
+// var monter = offsetActuel>document.offsetTop;
+// var sections = document.querySelectorAll("scroller");
+
+// switch (offsetActuel) {
+//     case offsetActuel>0 && offsetActuel<sections[1].offsetTop:
+//     if (descendre) {
+//         sections[1].scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//             offsetActuel = sections[1].offsetTop;
+// } 
+// break;
+//     case offsetActuel>sections[1].offsetTop && offsetActuel<sections[2].offsetTop:
+//     if (descendre) {
+//         sections[2].scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//             offsetActuel = sections[2].offsetTop;
+// } 
+// break;
+//     case offsetActuel>sections[2].offsetTop && offsetActuel<sections[3].offsetTop:
+//     if (descendre) {
+//         sections[3].scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//             offsetActuel = sections[3].offsetTop;
+// } 
+// break;
+//     case offsetActuel>sections[3].offsetTop && offsetActuel<sections[4].offsetTop:
+//     if (descendre) {
+//         sections[4].scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//             offsetActuel = sections[4].offsetTop;
+// } 
+// }
+
+// window.scroll({
+//     top: 0, 
+//     left: 0, 
+//     behavior: 'smooth'
+//   });
+
+//   window.scrollBy({ 
+//     top: 1000, // could be negative value
+//     left: 0, 
+//     behavior: 'smooth' 
+//   });
+
+//   document.querySelector('.scroller').scrollIntoView({ 
+//     behavior: 'smooth' 
+//   });
 
 // DATA-HIJACKING
 

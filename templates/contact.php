@@ -1,6 +1,6 @@
 <!-- SECTION GET IN TOUcH -->
-<div id="contact" class="section">
-  <div class="fullpage__slide">
+<div id="contact" class="section scroller">
+  <div class="fullpage__slide scroller">
     <!-- texte & buton link-->
     <div class="title">
       <h2 class="title__text js-letter">Get In Touch</h2>
@@ -40,5 +40,7 @@
     </div>
   </div>
 </div>
+
+
 <p class="scrollDown">SCROLL</p>
 </main>

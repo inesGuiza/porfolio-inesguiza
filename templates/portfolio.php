@@ -6,8 +6,8 @@ $text_intro_web = get_theme_mod('portfolio-web-text', __('Texte accroche'));
 ?>
 
 <!-- SECTION PORTFOLIO -->
-<div id="portfolio" class="section">
-  <div class="fullpage__slide">
+<div id="portfolio" class="section scroller">
+  <div class="fullpage__slide scroller">
     <!-- architecture -->
       <!-- texte & buton link-->
     <div class="title__demi">

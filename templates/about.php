@@ -3,8 +3,8 @@
 $text_intro = get_theme_mod('portfolio-about-text', __('Texte accroche'));
 ?>
 <!-- SECTION ABOUT ME  -->
-<div id="about" class="section">
-  <div class="fullpage__slide">
+<div id="about" class="section scroller">
+  <div class="fullpage__slide scroller">
     <!-- texte & buton link-->
     <div class="title">
       <h2 class="title__text js-letter">About Me</h2>

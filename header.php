@@ -18,27 +18,33 @@
 </head>
 
 <!-- hijacking: on/off - animation:none / scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
-<body data-hijacking="off" data-animation="rotate" >
+
+<body data-hijacking="off" data-animation="" >
 
 <!-- PAGE 1 // ACCEUIL --> 
 <header id="myHeader"> 
 
     <!-- Navigation -->
     <nav  class="navbar navbar-dark">
-      <a class="name" href="<?php echo get_site_url(); ?>">Inès Guiza</a>
+        <a class="name" href="<?php echo get_site_url(); ?>">Inès Guiza</a>
       <!-- menu -->
-      <div class="wrap align-items-center">
-        <div class="icons">
-          <a href="https://twitter.com/Ines_gza" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/in%C3%A8s-guiza-b510b8109/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.instagram.com/ines_gza/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+        <div class="wrap align-items-center">
+          <div class="icons">
+          <a href="https://twitter.com/Ines_gza" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/in%C3%A8s-guiza-b510b8109/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/ines_gza/?hl=fr" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          </div>
+
+          <button id="aIcon" class="navbar-toggler menuIcon" type="button" data-toggle="collapse" data-target="#menu-ines" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span id="barettes" class="navbar-toggler-icon"></span>
+          </button>
         </div>
-
-        <button id="aIcon" class="navbar-toggler menuIcon" type="button" data-toggle="collapse" data-target="#menu-ines" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span id="barettes" class="navbar-toggler-icon"></span>
-</button>
-
-      </div>
     </nav>
 
   <!-- <nav id="menu-ines" class="global-nav d-none">
@@ -71,4 +77,4 @@
           ?>
   <!-- </nav> -->
 
-</header>
+  </header>

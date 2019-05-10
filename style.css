@@ -9729,7 +9729,6 @@ header {
   overflow: hidden;
   z-index: 100;
   opacity: 1;
-  scroll-behavior: smooth;
 }
 #barres-nav ul {
   margin: 0;
@@ -9781,6 +9780,8 @@ header {
     left: 50%;
     bottom: 32px;
     transform: translate3d(-50%, 0, 0);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
   }
   #barres-nav ul {
     display: flex;
@@ -9803,20 +9804,24 @@ li {
   list-style-type: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .mon-bg {
   background-color: #6f1c36;
 }
 
 .section1 {
   height: 100vh;
-  display: table;
+  display: flex;
   width: 100%;
   top: 10rem;
 }
 
 .section {
   height: 100vh;
-  display: table;
+  display: flex;
   width: 100%;
 }
 

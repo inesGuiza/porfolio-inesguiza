@@ -5,8 +5,8 @@ $lastname = get_theme_mod('portfolio-acceuil-text', __('Texte accroche'));
 ?>
 <main class="mon-bg">
     <!-- Section Présentation -->
-    <div id="top" class="section1">
-      <div class="full-page-1">
+    <div id="top" class="section1 scroller">
+      <div class="full-page-1 scroller">
         <!-- left side -->
         <div class="title title-top">
           <h1 class="title__text0 js-letter"> <?php echo get_bloginfo('name'); ?> <br><?= $lastname; ?></h1>
@@ -41,22 +41,22 @@ $lastname = get_theme_mod('portfolio-acceuil-text', __('Texte accroche'));
   <!-- menu déroulant -->
 <div id="barres-nav" class="left">
   <ul>
-    <li class="smooth">
-      <a href="<?php echo get_site_url(); ?>" class="active">
+    <li>
+      <a href="#top" class="active">
       <span></span>
       </a>
     </li>
-    <li class="smooth">
+    <li>
       <a href="#portfolio" class="">
         <span></span>
       </a>
     </li>
-    <li class="smooth">
+    <li >
       <a href="#about" class="">
         <span ></span>
       </a>
     </li>
-    <li class="smooth">
+    <li>
       <a href="#contact" class="">
         <span ></span>
       </a>
