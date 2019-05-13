@@ -41,7 +41,7 @@
     <div class="page-num">
       <p>03</p>
     </div>
-
+<div id="contact-form-fond">
 <div id="contact-form-ines" class="container contact-form">
     
     <!-- contact form -->
@@ -83,9 +83,10 @@
 
             </div>
           </form>
-   
+   </div>
 </div>
 </div>
 <p class="scrollDown">SCROLL</p>
 
 </main>
+</div>

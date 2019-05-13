@@ -3,6 +3,7 @@
 $lastname = get_theme_mod('portfolio-acceuil-text', __('Texte accroche'));
 
 ?>
+<div class="carrousel-ines">
 <main class="mon-bg">
     <!-- Section Présentation -->
     <div id="top" class="section1 scroller">
