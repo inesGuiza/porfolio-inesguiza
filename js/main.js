@@ -1,4 +1,3 @@
-
 // NAVBAR APPARITION
 
 window.onscroll = function () {
@@ -66,8 +65,7 @@ function myFunction() {
 
 let maxWidth = window.getComputedStyle(document.body).width;
 
-if (maxWidth >= 768) {
-};
+if (maxWidth >= 768) {};
 
 // SCROLL SMOOTH
 // var offsetActuel = 0;
@@ -146,3 +144,32 @@ if (maxWidth >= 768) {
 //     boxShadowBlur = 40*(offset/windowHeight);
 // }
 
+
+/* DEBUT SCROLL PAGE */
+
+class ScrollPage {
+    constructor() {
+        this.maxPage = 4;
+        this.actualPage = 1;
+        window.addEventListener('mousewheel', this.findNextPage);
+    }
+    findNextPage = (event) => {
+        let down = event.deltaY > 0;
+        window.removeEventListener('mousewheel', this.findNextPage);
+        if (down) this.actualPage++;
+        else this.actualPage--;
+        if (this.actualPage > this.maxPage) this.actualPage = this.maxPage;
+        else if (this.actualPage < 1) this.actualPage = 1;
+        this.changePage()
+        setTimeout(() => {
+            window.addEventListener('mousewheel', this.findNextPage);
+        }, 500);
+    }
+    changePage = () => {
+        let y = (this.actualPage - 1) * this.pageHeight;
+    }
+}
+
+new ScrollPage();
+
+/* FIN SCRLL PAGE */
