@@ -54,15 +54,22 @@
  <!-- cette fonction permet une sécurité pour véirfier que le formulaire est authentique -->	 
           <?php //wp_nonce_field('send-mail'); ?>
             <div class="row col-pull">
-              <div data-ix="close-interaction" class="close-icon"></div>
-              <div class="title-contact">Hello! Let's work together.</div>
+                <div data-ix="close-interaction" class="close-icon btn" ></div>
+
               <!-- Name -->
-              <div class="col-sm-6">
-                <input class="text-field w-input" type="text" name="firstname" placeholder="First name" id="firstname" maxlength="256" value="<?= isset($old['firstname']) ? $old['firstname'] : '' ?>">	                
+              <div class="container pt-3">              
+                <div class="title-contact">Hello! Let's work together.</div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <input class="text-field w-input" type="text" name="firstname" placeholder="First name" id="firstname" maxlength="256" value="<?= isset($old['firstname']) ? $old['firstname'] : '' ?>">	                
+                  </div>
+
+                  <div class="col-sm-6">
+                    <input class="text-field w-input" type="text" name="name" placeholder="Last name" id="name" maxlength="256" value="<?= isset($old['name']) ? $old['name'] : '' ?>">	                
+                  </div>
+                </div>
               </div>
-              <div class="col-sm-6">
-                <input class="text-field w-input" type="text" name="name" placeholder="Last name" id="name" maxlength="256" value="<?= isset($old['name']) ? $old['name'] : '' ?>">	                
-              </div>
+
               <!-- email -->
               <div class="col-sm-12">
                 <input class="text-field email w-input" type="text" name="email"  id="email" maxlength="256" value="<?= isset($old['email']) ? $old['email'] : '' ?>" placeholder="Email adress"></div>

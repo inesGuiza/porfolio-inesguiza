@@ -36,14 +36,14 @@
         line-height: 1.2
 
 .contact-form
-    position: relative
+    position: absolute
     // right: -25%
     right: 0
     bottom: 0px
     z-index: 1000
     width: 50%
     height: 100vh
-    display: block
+    display: none
     // background-color: $mauve
 @media screen and (max-width: $break-large)
     .contact-form
@@ -57,7 +57,7 @@
     width: 100%
     height: 100vh
     margin: auto
-    padding: 50px 40px
+    padding: 100px 40px
     background-color: $mauve
     box-shadow: 7px 7px 10px 2px rgba(0, 0, 0, .39)
 @media screen and (max-width: $break-large)
@@ -68,9 +68,12 @@
         padding-bottom: 5rem
 
 .close-icon 
-    width: 10%
-    height: 10%
-    float: right 
+    width: 7%
+    height: 7%
+    float: right
+    margin-right: 3%
+    margin-top: 2%
+    display: block
     // border-radius: 30px
     background-image: url("./img/Times_symbol.svg.png")
     background-position: 50% 50%
@@ -79,7 +82,7 @@
     background-color: $jaune
 
 .title-contact
-    margin-bottom: 2rem
+    margin-bottom: 3rem
     font-family: $font-dots
     color: $jaune
     font-size: 2.5rem
@@ -104,7 +107,7 @@
 .w-input
     display: block
     width: 100%
-    height: 2rem
+    height: 3rem
     padding: 8px 12px
     border: 1px solid #cccccc
 

@@ -22,16 +22,17 @@ menuButtonA.addEventListener('click', ajoutmenu);
 
 let contactButton = document.getElementById('contact-ines');
 let contactContainer = document.getElementById('contact-form-ines');
-let closeButton = document.getElementsByClassName('close-icon');
+let closeButton = document.getElementsByClassName('close-icon')[0];
+//console.log(closeButton);
 
 function ajoutcontact() {
-    contactContainer.classList.add('block');
+    contactContainer.classList.add('d-block');
 }
 
 contactButton.addEventListener('click', ajoutcontact);
 
 function removecontact() {
-    contactContainer.classList.remove('block');
+    contactContainer.classList.remove('d-block');
 }
 closeButton.addEventListener('click', removecontact);
 
