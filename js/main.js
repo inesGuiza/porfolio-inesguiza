@@ -18,6 +18,23 @@ function ajoutmenu() {
 }
 menuButtonA.addEventListener('click', ajoutmenu);
 
+// CONTACT APPARITION
+
+let contactButton = document.getElementById('contact-ines');
+let contactContainer = document.getElementById('contact-form-ines');
+let closeButton = document.getElementsByClassName('close-icon');
+
+function ajoutcontact() {
+    contactContainer.classList.add('block');
+}
+
+contactButton.addEventListener('click', ajoutcontact);
+
+function removecontact() {
+    contactContainer.classList.remove('block');
+}
+closeButton.addEventListener('click', removecontact);
+
 // menuButtonA.addEventListener('click', () => {
 //     menuMyContainer.classList.add("js-open");
 // });

@@ -24,6 +24,9 @@
           <i class="fas fa-file-download"></i>
         </a>
         </li>
+        <div  id="contact-ines" class="btn-wrap js-letter">
+        <a  class="btn" href="#contact-ines">Let's talk</a>
+        </div>
       </ul>
     </div>
       <!-- image link -->
@@ -38,9 +41,44 @@
     <div class="page-num">
       <p>03</p>
     </div>
-  </div>
+
+<div id="contact-form-ines" class="container contact-form">
+    
+    <!-- contact form -->
+    
+        <?php //view('partials/notice'); ?>
+
+        <!-- action=" //get_admin_url() . '?action=send-mail'; ?>" -->
+           <form class="form-class" id="con_form" method="post">
+
+ <!-- cette fonction permet une sécurité pour véirfier que le formulaire est authentique -->	 
+          <?php //wp_nonce_field('send-mail'); ?>
+            <div class="row col-pull">
+              <div data-ix="close-interaction" class="close-icon"></div>
+              <div class="title-contact">Hello! Let's work together.</div>
+              <!-- Name -->
+              <div class="col-sm-6">
+                <input class="text-field w-input" type="text" name="firstname" placeholder="First name" id="firstname" maxlength="256" value="<?= isset($old['firstname']) ? $old['firstname'] : '' ?>">	                
+              </div>
+              <div class="col-sm-6">
+                <input class="text-field w-input" type="text" name="name" placeholder="Last name" id="name" maxlength="256" value="<?= isset($old['name']) ? $old['name'] : '' ?>">	                
+              </div>
+              <!-- email -->
+              <div class="col-sm-12">
+                <input class="text-field email w-input" type="text" name="email"  id="email" maxlength="256" value="<?= isset($old['email']) ? $old['email'] : '' ?>" placeholder="Email adress"></div>
+              <!-- Prénom / subject -->
+              <div class="col-sm-12">
+                <input class="text-field email w-input" type="text" name="subject" id="subject" maxlength="256" value="<?= isset($old['subject']) ? old['subject'] : '' ?>" placeholder="Subject">
+                <!-- message -->
+                <textarea class="text-field message-field" name="message" placeholder="Project Description" id="message" maxlength="5000" ><?= $old['message']; ?></textarea>
+                <button class="site-btn submit-button w-button" type="submit">send request</button>
+              </div>
+
+            </div>
+          </form>
+   
 </div>
-
-
+</div>
 <p class="scrollDown">SCROLL</p>
+
 </main>

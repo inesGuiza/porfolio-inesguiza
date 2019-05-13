@@ -35,4 +35,109 @@
         font-size: 1.1rem
         line-height: 1.2
 
-    
+.contact-form
+    position: relative
+    // right: -25%
+    right: 0
+    bottom: 0px
+    z-index: 1000
+    width: 50%
+    height: 100vh
+    display: block
+    // background-color: $mauve
+@media screen and (max-width: $break-large)
+    .contact-form
+        right: -25%
+        width: 100%
+
+.col-pull
+    position: relative
+    left: 0px
+    display: block
+    width: 100%
+    height: 100vh
+    margin: auto
+    padding: 50px 40px
+    background-color: $mauve
+    box-shadow: 7px 7px 10px 2px rgba(0, 0, 0, .39)
+@media screen and (max-width: $break-large)
+    .col-pull
+        width: 100%
+        height: 100vh
+        padding-top: 5rem
+        padding-bottom: 5rem
+
+.close-icon 
+    width: 10%
+    height: 10%
+    float: right 
+    // border-radius: 30px
+    background-image: url("./img/Times_symbol.svg.png")
+    background-position: 50% 50%
+    background-size: 100%
+    background-repeat: no-repeat
+    background-color: $jaune
+
+.title-contact
+    margin-bottom: 2rem
+    font-family: $font-dots
+    color: $jaune
+    font-size: 2.5rem
+    line-height: 30px
+    font-weight: 500
+
+.text-field
+    width: 100%
+    height: 2rem
+    margin-top: 0px
+    margin-right: 10px
+    margin-bottom: 20px
+    padding-left: 10px
+    float: left
+    // border-radius: 2px
+    background-color: #ffffff
+    font-family: $font-rale
+    color: $mauve
+    font-size: 14px
+    font-weight: 400
+
+.w-input
+    display: block
+    width: 100%
+    height: 2rem
+    padding: 8px 12px
+    border: 1px solid #cccccc
+
+.message-field
+    display: block
+    width: 100%
+    height: 8rem
+    padding: 8px 12px
+    border: 1px solid #cccccc
+
+
+.submit-button
+    margin-top: 20px
+    padding: 15px
+    float: left
+    border-style: solid
+    border-width: 1px
+    border-color: #fff 
+    border-radius: 2px
+    background-color: transparent 
+    font-family: $font-rale
+    color: #fff 
+    font-size: 14px
+    font-weight: 500
+    text-align: left
+    letter-spacing: 1px
+
+.w-button
+    display: inline-block
+    padding: 9px 15px
+    color: white
+    text-decoration: none
+    cursor: pointer
+
+
+
