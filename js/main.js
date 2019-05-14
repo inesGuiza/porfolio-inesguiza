@@ -151,6 +151,11 @@ if (maxWidth >= 768) {};
 
 
 /* DEBUT SCROLL PAGE */
+let secTop = document.getElementById("top");
+let secPortfolio = document.getElementById("portfolio");
+let secAbout = document.getElementById("about");
+let secCon = document.getElementById("contact");        
+
 
 class ScrollPage {
     constructor() {
@@ -170,11 +175,38 @@ class ScrollPage {
             window.addEventListener('mousewheel', this.findNextPage);
         }, 500);
     }
+
     changePage = () => {
+        let hauteurPage = (window.innerHeight);
+        this.pageHeight = hauteurPage;
         let y = (this.actualPage - 1) * this.pageHeight;
+
+        window.pageYOffset = y;
+      
+        console.log("window scrolltop: "+ window.pageYOffset);
+        // window.scrollY = window.pageYOffset
+        window.scroll(0, y);
+
+        var offset = window.pageYOffset;
+        console.log("offset: "+ offset);
+     
+        // this.changePage.scrollTo(0, y);
+        // console.log(this.changePage);
+
+        //let deplacement = window.scrollIntoView(); 
+        //console.log(deplacement);
+
+        /*if(y === 722){
+            console.log("test");
+            secAbout.scrollIntoView();        
+        }*/
+        // window.addEventListener('mousewheel', deplacement);
+        //console.log(this.pageHeight); 
+        //console.log(deplacement);
+
     }
 }
 
 new ScrollPage();
 
-/* FIN SCRLL PAGE */
+/* FIN SCROLL PAGE */
