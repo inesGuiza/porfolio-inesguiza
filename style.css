@@ -10283,7 +10283,7 @@ p {
 }
 
 .fondOpaque {
-  background-color: rgba(52, 58, 64, 0.699);
+  background-color: rgba(0, 0, 0, 0.74);
   z-index: 900;
   position: absolute;
   width: 100%;

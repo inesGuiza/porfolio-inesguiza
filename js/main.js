@@ -36,9 +36,14 @@ contactButton.addEventListener('click', ajoutcontact);
 function removecontact() {
     contactContainer.classList.remove('d-block');
     fondContainer.classList.remove('fondOpaque');
+    //window.scroll.remove('fondOpaque');
+
 
 }
+
 closeButton.addEventListener('click', removecontact);
+window.addEventListener('scroll', removecontact); 
+
 
 // menuButtonA.addEventListener('click', () => {
 //     menuMyContainer.classList.add("js-open");
