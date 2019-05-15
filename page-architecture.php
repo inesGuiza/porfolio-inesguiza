@@ -91,6 +91,6 @@ get_header($name= 'portfolio');
 
 <?php
 
-get_footer();
+get_footer($name= 'archi');
 
 ?>

@@ -10,6 +10,6 @@ get_template_part('templates/about/passion');
 
 get_template_part('templates/about/skill');
 
-get_footer();
+get_footer($name= 'about');
 
 ?>

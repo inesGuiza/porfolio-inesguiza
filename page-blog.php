@@ -10,6 +10,6 @@ get_template_part('templates/blog/');
 
 get_template_part('templates/blog/');
 
-get_footer();
+get_footer($name= 'blog');
 
 ?>

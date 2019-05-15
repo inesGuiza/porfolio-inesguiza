@@ -1,7 +1,7 @@
 // NAVBAR APPARITION
 
 window.onscroll = function () {
-    myFunction()
+    myFunction();
 };
 
 var header = document.getElementById("myHeader");
@@ -16,30 +16,6 @@ function ajoutmenu() {
     menuMyContainer.classList.toggle('d-none');
 }
 menuButtonA.addEventListener('click', ajoutmenu);
-
-// CONTACT APPARITION
-
-let contactButton = document.getElementById('contact-ines');
-let contactContainer = document.getElementById('contact-form-ines');
-let fondContainer = document.getElementById('contact-form-fond');
-let closeButton = document.getElementsByClassName('close-icon')[0];
-let sectionContact = document.getElementById('contact');
-//console.log(closeButton);
-
-function ajoutcontact() {
-    contactContainer.classList.add('d-block');
-    fondContainer.classList.add('fondOpaque');
-}
-
-contactButton.addEventListener('click', ajoutcontact);
-
-function removecontact() {
-    contactContainer.classList.remove('d-block');
-    fondContainer.classList.remove('fondOpaque');
-}
-
-closeButton.addEventListener('click', removecontact);
-window.addEventListener('scroll', removecontact); 
 
 
 // box-shadow: 0 0px 50px 0px rgba(0, 0, 0, 0.5)
@@ -136,12 +112,7 @@ if (maxWidth >= 768) {};
 // }
 
 
-/* DEBUT SCROLL PAGE */
-let secTop = document.getElementById("top");
-let secPortfolio = document.getElementById("portfolio");
-let secAbout = document.getElementById("about");
-let secCon = document.getElementById("contact");        
-
+/* DEBUT SCROLL PAGE */        
 
 class ScrollPage {
     constructor() {
@@ -186,27 +157,9 @@ class ScrollPage {
             secAbout.scrollIntoView();        
         }*/
         // window.addEventListener('mousewheel', deplacement);
-       
     }
 }
 
 new ScrollPage();
 
 /* FIN SCROLL PAGE */
-
-/* CHANGEMENT DE COULEUR ARROW */
-
-let arrowBack = document.getElementsByClassName("arrow-retour");
-let bodyAbout = document.getElementById("banner-about");
-let bodyRest = document.getElementsByClassName("page");
-
-console.log(bodyAbout);
-
-// function colorChange() {
-// if (bodyAbout.style.backgroundColor = "#fff" ) {
-//     arrowBack.classList.add("arrow-color")
-// } else if (bodyRest.style.backgroundColor = "$mauve" ) {
-//     arrowBack.classList.add("arrow-retour")
-//     }
-// } 
-// window.addEventListener('scroll', colorChange);
