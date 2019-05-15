@@ -6,8 +6,8 @@ $lastname = get_theme_mod('portfolio-acceuil-text', __('Texte accroche'));
 <div class="carrousel-ines">
 <main class="mon-bg">
     <!-- Section Présentation -->
-    <div id="top" class="section1 scroller">
-      <div class="full-page-1 scroller">
+    <div id="top" class="section1 ">
+      <div class="full-page-1">
         <!-- left side -->
         <div class="title title-top">
           <h1 class="title__text0 js-letter"> <?php echo get_bloginfo('name'); ?> <br><?= $lastname; ?></h1>

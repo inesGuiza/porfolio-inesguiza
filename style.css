@@ -9848,6 +9848,7 @@ html {
   transform: translate3d(0, -50%, 0);
   z-index: 200;
   margin-left: 11%;
+  font-weight: 5200;
 }
 
 .title__demi {
@@ -9867,7 +9868,7 @@ html {
   top: 50%;
   transform: translate3d(0, -50%, 0);
   z-index: 200;
-  margin-left: 52%;
+  margin-left: 54%;
 }
 
 .border-yellow {
@@ -9940,7 +9941,7 @@ html {
 }
 .title__lead {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.1em;
@@ -9954,7 +9955,7 @@ html {
 }
 .title__lead2 {
   color: #ffffffbd;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.1em;
@@ -10115,8 +10116,13 @@ p {
     font-size: 3.6rem;
   }
 }
+.btn-portfolio {
+  margin-left: 2rem !important;
+}
+
 .btn-wrap {
-  margin-top: 2rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
 }
 .btn-wrap a {
   text-decoration: none;
@@ -10128,7 +10134,7 @@ p {
   background: #f0aa09;
   line-height: 1;
   font-weight: bold;
-  padding: 18px 32px;
+  padding: 14px 32px;
   border-radius: 50px;
   letter-spacing: 0.1em;
 }
@@ -10136,22 +10142,34 @@ p {
 @media screen and (max-width: 992px) {
   .btn-wrap {
     margin-top: 1rem;
+    margin-left: 2rem;
   }
 
   .btn {
-    font-size: 1rem;
-    padding: 13px 24px;
+    font-size: 0.8rem;
+    padding: 12px 24px;
   }
 }
 .page-num {
   position: absolute;
   overflow-y: hidden;
-  right: 7%;
+  right: 9%;
   bottom: 12%;
   font-size: 9rem;
   font-family: "Poiret One", cursive;
   color: #fff;
   z-index: 200;
+}
+
+.couverture {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 8% 0 auto;
+  z-index: 0;
+  background-color: rgba(190, 0, 70, 0.5);
+  background-size: cover;
 }
 
 .image22 {
@@ -10180,7 +10198,7 @@ p {
   position: relative;
   width: 25%;
   height: 75%;
-  margin: 0 8% 0 auto;
+  margin: 0 7.5% 0 auto;
   box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
   z-index: 2;
 }
@@ -10216,7 +10234,7 @@ p {
   transform: translate(-6%, -37%);
   z-index: 1;
   border: 2px dashed #f0aa09 !important;
-  left: 70.5%;
+  left: 71%;
 }
 
 .image {
@@ -10277,6 +10295,10 @@ p {
   left: 47.5%;
 }
 
+.col-9 {
+  padding: 0;
+}
+
 .image_contact {
   background-image: url("./img/meeting2.jpg");
   background-size: cover;
@@ -10292,6 +10314,7 @@ p {
 
 .get {
   list-style: none;
+  padding: 0;
 }
 .get li {
   margin-bottom: 1.2rem;
@@ -10300,7 +10323,7 @@ p {
 }
 .get li a {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.1em;
@@ -10310,9 +10333,12 @@ p {
 .get li a:hover {
   color: #f0aa09;
 }
+.get li a.last {
+  font-size: 1.5rem;
+}
 .get li p {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.1em;
@@ -10481,6 +10507,53 @@ header .global-nav {
 
 ul {
   list-style: none;
+}
+
+.page-about {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #6f1c36;
+}
+.page-about .image_about {
+  background: url("./img/ines.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  width: 60%;
+  height: 100vh;
+  box-shadow: none;
+  left: 8%;
+}
+
+.page {
+  background-color: #fff;
+}
+
+.arrow-retour {
+  position: fixed;
+  top: 12%;
+  right: 90%;
+  display: block;
+  transition: 0.5s;
+  overflow: hidden;
+  color: #fff;
+  z-index: 300;
+  text-decoration: none;
+}
+
+.arrow-color {
+  color: #000000;
+}
+
+.title_about {
+  color: #fff;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  z-index: 200;
+  margin-left: 11%;
+  font-weight: 5200;
 }
 
 /*# sourceMappingURL=style.css.map */

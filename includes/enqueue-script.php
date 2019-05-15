@@ -29,12 +29,12 @@ class EnqueueScript
 
     // Ajout des scripts js
 
-    wp_enqueue_script('portfolio-ines',get_template_directory_uri() . '/js/main.js',[],null,true);
+    wp_enqueue_script('portfolio-ines',get_template_directory_uri() . '/js/main.js',[], null, true);
        
 
     // <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-   wp_enqueue_script('jquery-perso', get_template_directory_uri() . '/node_modules/jquery/dist/jquery.slim.min.js', null, true); 
+   wp_enqueue_script('jquery-perso', get_template_directory_uri() . '/node_modules/jquery/dist/jquery.slim.min.js',[], null, true); 
 
    wp_enqueue_script('boostrap', get_template_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js', ['jquery-perso'], null, true);
 

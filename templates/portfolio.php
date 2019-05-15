@@ -6,8 +6,8 @@ $text_intro_web = get_theme_mod('portfolio-web-text', __('Texte accroche'));
 ?>
 
 <!-- SECTION PORTFOLIO -->
-<div id="portfolio" class="section scroller">
-  <div class="fullpage__slide scroller">
+<div id="portfolio" class="section">
+  <div class="fullpage__slide">
     <!-- architecture -->
       <!-- texte & buton link-->
     <div class="title__demi">
@@ -17,15 +17,17 @@ $text_intro_web = get_theme_mod('portfolio-web-text', __('Texte accroche'));
         <span class="barre2 js-letter"></span>
       </div>
       <p class="title__lead js-letter"><?= $text_intro_archi; ?></p>
-      <div class="btn-wrap js-letter">
-        <a class="btn" href="<?php echo get_page_link('11'); ?>"> Show me more</a>
+      <div class="btn-wrap js-letter btn-portfolio">
+        <a class="btn" href="<?php echo get_page_link('11'); ?>"> Show me</a>
       </div>
     </div>
       <!-- image link -->
     <a class="image22 image_myworkarchitecture" href="<?php echo get_page_link('11'); ?>">
-      <div class="image__over2">
-        <div class="image__cover2"></div>
-        <div class="image__cover2"></div>
+      <div class="couverture">
+        <div class="image__over2">
+          <div class="image__cover2"></div>
+          <div class="image__cover2"></div>
+        </div>
       </div>
     </a>
     <div class="border-jaune-portfolio"></div>
@@ -40,15 +42,17 @@ $text_intro_web = get_theme_mod('portfolio-web-text', __('Texte accroche'));
 
       </div>
       <p class="title__lead js-letter"><?= $text_intro_web; ?></p>
-      <div class="btn-wrap js-letter">
-        <a class="btn" href="<?php echo get_page_link('45'); ?>"> Show me more</a>
+      <div class="btn-wrap js-letter btn-portfolio">
+        <a class="btn" href="<?php echo get_page_link('45'); ?>"> Show me</a>
       </div>
     </div>
       <!-- image link -->
     <a class="image2 image_myworkwebdesign" href="<?php echo get_page_link('45'); ?>">
-      <div class="image__over2">
-        <div class="image__cover2"></div>
-        <div class="image__cover2"></div>
+      <div class="couverture">
+        <div class="image__over2">
+          <div class="image__cover2"></div>
+          <div class="image__cover2"></div>
+        </div>
       </div>
     </a>
     <div class="border-jaune-portfolio2"></div>

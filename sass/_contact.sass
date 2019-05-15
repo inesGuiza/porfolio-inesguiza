@@ -11,13 +11,14 @@
 
 .get
     list-style: none
+    padding: 0
     li 
         margin-bottom: 1.2rem
         list-style-type: none 
         line-height: 1.5
         a 
             color: #fff 
-            font-size: 1.5rem
+            font-size: 1.3rem
             font-family: $font-rale
             line-height: 1.5
             letter-spacing: 0.1em
@@ -25,18 +26,22 @@
             text-decoration: none
         a:hover 
             color: $jaune
+        a.last 
+            font-size: 1.5rem
+        // i.last
+        //     font-size: 1.7rem
         p
             color: #fff 
-            font-size: 1.5rem
+            font-size: 1.3rem
             font-family: $font-rale
             line-height: 1.5
             letter-spacing: 0.1em
             transition: 0.3s
             display: inline
             margin-right: 1rem
-
         .last
             margin-right: 1rem
+        
 @media screen and (max-width: $break-large)
     .get li a 
         font-size: 1.1rem

@@ -36,30 +36,11 @@ contactButton.addEventListener('click', ajoutcontact);
 function removecontact() {
     contactContainer.classList.remove('d-block');
     fondContainer.classList.remove('fondOpaque');
-    //window.scroll.remove('fondOpaque');
-
-
 }
 
 closeButton.addEventListener('click', removecontact);
 window.addEventListener('scroll', removecontact); 
 
-
-// menuButtonA.addEventListener('click', () => {
-//     menuMyContainer.classList.add("js-open");
-// });
-
-// headerMyContainer.addEventListener('click', () => {
-//     menuMyContainer.classList.remove("js-open");
-// });
-
-
-
-// function test2(){
-//     menuMyContainer.classList.remove('js-open');
-//     menuMyContainer.classList.add('global-nav');
-// }
-// headerMyContainer.addEventListener('click', test2);
 
 // box-shadow: 0 0px 50px 0px rgba(0, 0, 0, 0.5)
 // background-color: $mauve
@@ -202,16 +183,30 @@ class ScrollPage {
         //console.log(deplacement);
 
         /*if(y === 722){
-            console.log("test");
             secAbout.scrollIntoView();        
         }*/
         // window.addEventListener('mousewheel', deplacement);
-        //console.log(this.pageHeight); 
-        //console.log(deplacement);
-
+       
     }
 }
 
 new ScrollPage();
 
 /* FIN SCROLL PAGE */
+
+/* CHANGEMENT DE COULEUR ARROW */
+
+let arrowBack = document.getElementsByClassName("arrow-retour");
+let bodyAbout = document.getElementById("banner-about");
+let bodyRest = document.getElementsByClassName("page");
+
+console.log(bodyAbout);
+
+// function colorChange() {
+// if (bodyAbout.style.backgroundColor = "#fff" ) {
+//     arrowBack.classList.add("arrow-color")
+// } else if (bodyRest.style.backgroundColor = "$mauve" ) {
+//     arrowBack.classList.add("arrow-retour")
+//     }
+// } 
+// window.addEventListener('scroll', colorChange);

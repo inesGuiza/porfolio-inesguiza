@@ -1,6 +1,6 @@
 <!-- SECTION GET IN TOUcH -->
-<div id="contact" class="section scroller">
-  <div class="fullpage__slide scroller">
+<div id="contact" class="section">
+  <div class="fullpage__slide">
     <!-- texte & buton link-->
     <div class="title">
       <h2 class="title__text js-letter">Get In Touch</h2>
@@ -18,10 +18,10 @@
           <a class="last" href="https://www.linkedin.com/in/in%C3%A8s-guiza-b510b8109/" target="_blank"><i class="fab fa-linkedin"></i></a>
          
         </li>
-        <li class="js-letter ">
+        <li class="js-letter">
           <p>to have a look at my C.V.</p>
           <a href="<?php echo get_template_directory_uri(); ?>/img/cv_2019_ines.pdf" download>
-          <i class="fas fa-file-download"></i>
+          <i class="fas fa-file-download fa-lg"></i>
         </a>
         </li>
         <div  id="contact-ines" class="btn-wrap js-letter">
@@ -31,9 +31,11 @@
     </div>
       <!-- image link -->
     <a class="image image_contact" href="/about.html">
-      <div class="image__over">
-        <div class="image__cover"></div>
-        <div class="image__cover"></div>
+      <div class="couverture">
+        <div class="image__over">
+          <div class="image__cover"></div>
+          <div class="image__cover"></div>
+        </div>
       </div>
     </a>
     <div class="border-jaune"></div>
