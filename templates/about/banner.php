@@ -18,7 +18,7 @@ $text_intro = get_theme_mod('portfolio-about-text', __('Texte accroche'));
                             <span class="barre1"></span>
                             <span class="barre2 js-letter"></span>
                         </div>
-                        <div class="col-7">                       
+                        <div class="col-8">                       
                         <p class="title__lead js-letter"><?= $text_intro; ?></p>
                         </div> 
                         <!-- I love and I believe in Communication, Design <br> and Travel.   -->

@@ -20,3 +20,5 @@ if (window.pageYOffset > sticky2 + 700 ) {
     arrowBack.classList.remove("arrow-color")
     }
 };
+
+console.log(colorChange);
