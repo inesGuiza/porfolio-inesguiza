@@ -10168,7 +10168,7 @@ p {
   height: 100%;
   margin: 0 8% 0 auto;
   z-index: 0;
-  background-color: rgba(190, 0, 70, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
 }
 
@@ -10622,6 +10622,8 @@ header {
   font-family: "Poiret One", cursive;
   font-size: 1.1rem;
   color: #f0aa09;
+  font-weight: bolder;
+  line-height: 1.5;
 }
 
 .author {
@@ -10683,6 +10685,20 @@ header {
 }
 .col-4 {
   float: left;
+}
+
+.title-passion {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  color: #6f1c36;
+}
+
+.passions {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,8 +7,7 @@
                 <h3 class="title-about">Who I am
                    <div class="border-yellow-about js-letter">
                             <span class="barre1-about"></span>
-                            <!-- <span class="barre2 js-letter"></span> -->
-                        </div> 
+                    </div> 
                 </h3>  
                 
             </div>  
