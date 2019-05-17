@@ -10601,7 +10601,7 @@ header {
   display: block;
 }
 
-.col-6:last-child {
+#who .col-6:last-child {
   margin-top: 8rem;
 }
 
@@ -10691,14 +10691,71 @@ header {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-family: "Raleway", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #6f1c36;
 }
 
 .passions {
   font-family: "Raleway", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
+}
+
+.skills-container {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  flex-flow: row-reverse wrap;
+  margin-bottom: 0;
+  justify-content: center !important;
+}
+
+.skills-title {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.skills-design {
+  padding-left: 50px;
+  border-left: 10px solid #6f1c36;
+  border-bottom: 10px solid #6f1c36;
+  padding: 20px 0 20px 50px;
+  width: 50%;
+}
+
+.skills-gestion {
+  padding-left: 50px;
+  border-left: 10px solid #6f1c36;
+  padding: 20px 0 20px 50px;
+  width: 50%;
+}
+
+.skills-web {
+  padding-left: 50px;
+  padding: 20px 0 20px 50px;
+  width: 50%;
+}
+
+.skills-archi {
+  padding-left: 50px;
+  border-bottom: 10px solid #6f1c36;
+  padding: 20px 0 20px 50px;
+  width: 50%;
+}
+
+.programmes {
+  color: #f0aa09;
+  font-family: "Raleway", sans-serif;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.skills-body {
+  font-family: "Poiret One", cursive;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=style.css.map */
