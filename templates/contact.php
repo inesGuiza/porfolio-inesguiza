@@ -61,7 +61,7 @@
               <!-- Name -->
               <div class="container pt-3">              
                 <div class="title-contact">Hello! Let's work together.</div>
-                <div class="row">
+                <div class="row name">
                   <div class="col-sm-6">
                     <input class="text-field w-input" type="text" name="firstname" placeholder="First name" id="firstname" maxlength="256" value="<?= isset($old['firstname']) ? $old['firstname'] : '' ?>">	                
                   </div>

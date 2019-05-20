@@ -10471,6 +10471,13 @@ p {
   cursor: pointer;
 }
 
+.name .col-sm-6:first-child {
+  padding-left: 0;
+}
+.name .col-sm-6:last-child {
+  padding-right: 0;
+}
+
 header .global-nav {
   background-image: linear-gradient(to right, #6f1c36 50%, #f0aa09);
   width: 100%;
@@ -10758,6 +10765,13 @@ header {
   font-family: "Poiret One", cursive;
   font-size: 1rem;
   font-weight: bolder;
+}
+
+#skill .col-5:first-child {
+  float: left;
+}
+#skill ul {
+  padding-left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
