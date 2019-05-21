@@ -14,8 +14,8 @@
                 </a>
 <?php while (have_posts()) : the_post(); ?>
 
-                <div class="title-port">
-                    <h2 class="title__text0-archi text-center">
+                <div class="title-port ">
+                    <h2 class="title__text0-archi text-center ">
                         
                     <?php the_title(); ?>
                         University PROJECTS

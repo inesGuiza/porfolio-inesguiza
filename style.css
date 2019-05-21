@@ -10100,6 +10100,11 @@ p {
   left: 47.5%;
 }
 
+html::-webkit-scrollbar {
+  /* 1 */
+  width: 0;
+}
+
 .title__text__demi {
   font-size: 5rem;
   font-family: "Poiret One", cursive;
@@ -10516,8 +10521,13 @@ ul {
   list-style: none;
 }
 
+.title-port {
+  display: block;
+  background-color: #fff;
+}
+
 .title__text0-archi {
-  font-size: 5rem;
+  font-size: 4.5rem;
   text-transform: uppercase;
   font-family: "Poiret One", cursive;
   line-height: 1;
@@ -10528,9 +10538,10 @@ ul {
   text-shadow: 0px 0 #f0aa09, 0 0px #f0aa09, 5px 0 #f0aa09, 0 0px #f0aa09;
   z-index: 700;
   position: fixed;
+  width: 100%;
   top: 10%;
-  background-color: #fff;
-  border-bottom: 4px dashed #f0aa09;
+  background-color: #fff !important;
+  border-bottom: 3px dashed #f0aa09;
   display: inline-block;
 }
 
@@ -10571,6 +10582,25 @@ ul {
     padding: 12px 24px;
   }
 }
+.portfolio-link.row {
+  margin-top: 7%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 15rem;
+  text-align: center;
+}
+
+.item-projet {
+  display: block;
+  float: left;
+}
+.item-projet a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
 .page-about {
   width: 100%;
   height: 97vh;
