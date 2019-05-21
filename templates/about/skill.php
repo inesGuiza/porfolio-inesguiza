@@ -40,7 +40,7 @@
 
                                 <h5 class="skills-title">architecture</h5>
                                 <p class="skills-body">maquette • dessin
-                                    <br>
+                                    <br> découpe laser 
                                 </p>
                                 <strong class="programmes">Autocad <br> Sketch Up <br> Revit (objectif apprentissage)</strong>
 

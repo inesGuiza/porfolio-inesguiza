@@ -49,12 +49,12 @@ get_header($name= 'portfolio');
                             <?php
 
                             $args = [
-                                'post_type' => 'post'
+                                'post_type' => 'archi'
                             ];
 
                             $query = new WP_Query($args);
                             while ($query->have_posts()): $query->the_post(); ?>
-                            <div class="col-md-2">
+                            <div class="col-md-3">
                                 <a href="<?php the_permalink(); ?>">
                                     <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="img-fluid">
                                 </a>
