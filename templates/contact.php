@@ -2,7 +2,7 @@
 <div id="contact" class="section">
   <div class="fullpage__slide">
     <!-- texte & buton link-->
-    <div class="title">
+    <div id="mail" class="title">
       <h2 class="title__text js-letter">Get In Touch</h2>
       <div class="border-yellow js-letter">
         <span class="barre1"></span>
@@ -48,13 +48,12 @@
     
     <!-- contact form -->
     
-        <?php //view('partials/notice'); ?>
+        <?php view('partials/notice'); ?>
 
-        <!-- action=" //get_admin_url() . '?action=send-mail'; ?>" -->
-           <form class="form-class" id="con_form" method="post">
+           <form class="form-class" id="con_form" action="<?= admin_url('admin-post.php') . '?action=send-mail'; ?>#mail" method="post">
 
- <!-- cette fonction permet une sécurité pour véirfier que le formulaire est authentique -->	 
-          <?php //wp_nonce_field('send-mail'); ?>
+ <!-- cette fonction permet une sécurité pour vérifier que le formulaire est authentique -->	 
+          <?php wp_nonce_field('send-mail'); ?>
             <div class="row col-pull">
                 <div data-ix="close-interaction" class="close-icon btn" ></div>
 

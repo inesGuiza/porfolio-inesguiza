@@ -13,12 +13,17 @@
                 <div class="row align-items-center">
                     <div class="col-5 mx-auto align-self-center ">
                         <ul>
-                            <li class="skills-title mb-5"> 2006 -2012 • High School • <span class="skills-body"> Collège Saint-Pierre, Brussels</span></li>
-                            <li class="skills-title mb-5">2012 -2016 • Bachelor in Architecture • <span class="skills-body"> UCL Loci, Brussels</span></li>
-                            <li class="skills-title mb-5">2016 - 2017 • Erasmus in Master 1 • <span class="skills-body">KU Leuven, Sint-Lukas Ghent</span></li>
-                            <li class="skills-title mb-5">2017 - 2018 • Master in Architecture • <span class="skills-body">UCL Loci, Brussels</span></li>
+                            <li class="skills-title mb-5"> 2019 • <span class="underline"> Looking for jobs opportunities </span>• <span class="skills-body"> Brussels</span> </li>
                             <li class="skills-title mb-5"> 2018 - 2019 • Coding School • <span class="skills-body">MolenGeek, Brussels</span></li>
-                            <li class="skills-title"> 2019 • Looking for jobs opportunities • <span class="skills-body"> Brussels</span></li>
+                            <li class="skills-title mb-5">2017 - 2018 • Master in Architecture • <span class="skills-body">UCL Loci, Brussels</span></li>
+                            <li class="skills-title mb-5">2016 - 2017 • Erasmus in Master 1 • <span class="skills-body">KU Leuven, Sint-Lukas Ghent</span></li>
+                            <li class="skills-title mb-5">2012 -2016 • Bachelor in Architecture • <span class="skills-body"> UCL Loci, Brussels</span></li>
+                            <li class="skills-title "> 2006 -2012 • High School • <span class="skills-body"> Collège Saint-Pierre, Brussels</span></li>
+                            
+                            
+                            
+                            
+                            
 
 
                         </ul>
