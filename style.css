@@ -10541,7 +10541,6 @@ ul {
   width: 100%;
   top: 10%;
   background-color: #fff !important;
-  border-bottom: 3px dashed #f0aa09;
   display: inline-block;
 }
 
@@ -10792,6 +10791,20 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 0.9rem;
   line-height: 1.5;
+  height: 9rem;
+}
+
+#passion .citations {
+  margin-top: 2.5rem !important;
+}
+
+span.guill {
+  font-size: 4rem;
+  color: #f0aa09;
+  display: inline-block;
+  float: left;
+  font-family: "Raleway", sans-serif;
+  top: 5rem;
 }
 
 .skills-container {
