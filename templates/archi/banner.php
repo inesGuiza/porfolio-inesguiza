@@ -22,7 +22,4 @@
                     </h2>
 <?php endwhile; ?>
                 
-                    <div class="btn-wrap-archi">
-                        <a href="<?php echo get_page_link('45'); ?>" class="btn" target="_blank">For web dev projects</a>
-                    </div>
                 </div>
