@@ -15,8 +15,9 @@ while ($query->have_posts()) : $query->the_post(); ?>
                    <h3 class="text-center">
                         <a href="<?php the_permalink(); ?>">
                             <?php the_title(); ?>
-                            <?php the_category(); ?>
+                            
                         </a>
+                        <p><?php the_tags('','',''); ?></p>
                     </h3> 
                 </div>
             

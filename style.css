@@ -10593,10 +10593,13 @@ ul {
   margin-top: 15px;
   margin-bottom: 15px;
   transition: 0.5s ease;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .col-md-3 {
   padding: 0;
+  box-sizing: content-box;
 }
 
 .row {
@@ -10608,8 +10611,10 @@ ul {
   display: block;
   float: left;
   position: relative;
+  overflow: hidden;
   padding-right: 0;
   padding-left: 0;
+  transition: 0.5s;
 }
 .item-projet h3 {
   position: absolute;
@@ -10640,6 +10645,9 @@ ul {
   color: #6f1c36;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+.item-projet:hover img {
+  transform: scale(1.1);
 }
 .item-projet:hover .img-hover-overlay {
   background-color: rgba(255, 255, 255, 0.85);
